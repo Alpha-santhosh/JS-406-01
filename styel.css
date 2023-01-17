@@ -1,0 +1,101 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+.hero{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(19, 84, 117, 0.529)),url(https://wallpapers.com/images/hd/antique-book-compass-map-v2nem8botlftg4t5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 46px;
+    letter-spacing: 10px;
+}
+
+form{
+    margin:20px auto;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: #895BE6;
+    /* color: #37160B; */
+    color: white;
+    font-weight: bold;
+}
+.focus{
+    background-color: #531CAF;
+}
+
+.searchbox
+{
+    width: 32%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.searchBar{
+    width: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: max-content;
+}
+
+#numberofcountries{
+    color: white;
+    font-weight: bold;
+}
+
+#countriesResults{
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    font-size: 16px;
+}
+
+.material-symbols-outlined{
+    color: white;
+    /* color: black; */
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    justify-content: center;
+}
